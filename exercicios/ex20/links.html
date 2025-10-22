@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+    body{/*seletores personalisados
+        # = ID
+        . = CLASS 
+        : = PSEUDO-CLASS
+        :: = PSEUDO-ELEMENT
+        > = CHILDREN
+        */
+        font-family:Arial, Helvetica, sans-serif ;
+        font-weight: bold;/*negrito*/
+    }
+    #principal{
+        font-size: large;
+        text-align: center;
+        font-style: italic;
+        font-size: 25px;
+    }
+    a{
+        color: red;
+        text-decoration:none;/*sublinhado do texto none tira o cublinhado*/
+    }
+    a:visited{/*link depois q foi visitado fica da cor vermelha ou a cor q vc selecionar */
+        color: darkred;
+    }
+    a:hover{/*hover faz alguma coisa aparecer */
+        color: rgb(0, 0, 0);
+        text-decoration: underline;/*underline coloca o sublinhado em cor preta*/
+    }
+    
+    .especial:before{
+        content:"➙";
+    }
+    .especial:after{
+        content:"➙";
+    }
+    
+</style>
+</head>
+<body>
+    <h1 id="principal">Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara" target="_blank">Repositorio github</li>
+        <li><a href="https://www.youtube.com/@tvguanabarainfo" class="especial" target="_blank">canal do youtube</li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank">site do curso em Video</li>
+    </ul>
+    
+</body>
+</html>

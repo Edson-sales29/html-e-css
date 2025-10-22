@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+body
+{   
+        background-image: linear-gradient(to right, #A907F1
+        ,#FC02D8,#FE0681,#FF0E4A,#FE7E01,#FCBB09,#FFC102);
+        width: 900px;
+        margin: auto;
+        text-align: center;
+        
+        font:bold 1.5em arial,'work sans',sans-serif ;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 5px 5px 10px color(srgb rgb(0, 0, 0)
+    }
