@@ -1,1 +1,75 @@
 @charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ewert&family=Vidaloka&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Dirt&display=swap');
+
+
+:root{
+    --fonte01: Arial, Helvetica, sans-serif,
+    --fonte02: "Bebas Neue", sans-serif;
+    --fonte03: "Vidaloka", serif;
+}
+
+html,body{
+    min-width: 100vh;
+    background-color: slategrey;
+    font-family:
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+header h1{
+   font-variant: small-caps;
+   font-size: 3em;
+}
+header a,footer a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte03);
+    
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+
+}
+
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+}
+section.imagem p{
+    background-color: rgba(0, 0, 0, 0.377);
+    width: 400px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
