@@ -1,25 +1,22 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ewert&family=Vidaloka&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Dirt&display=swap');
-
-
 :root{
-    --fonte01: Arial, Helvetica, sans-serif,
-    --fonte02: "Bebas Neue", sans-serif;
-    --fonte03: "Vidaloka", serif;
+    --fonte01: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --fonte02:"Sriracha", cursive;
+    --fonte03: 'Lucida Handwriting', cursive;
 }
 
 html,body{
     min-width: 100vh;
     background-color: slategrey;
-    font-family:
+    font-family:var(--fonte01);
+
 }
 header{
     background-color: black;
@@ -30,11 +27,14 @@ header{
 }
 header h1{
    font-variant: small-caps;
-   font-size: 3em;
+   font-size: 5vw;
 }
 header a,footer a{
     text-decoration: none;
     color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-weight: bolder;
 }
 header a:hover{
     text-decoration: underline;
@@ -47,12 +47,14 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte03);
+    font-size: 2.5vw;
     
 }
 
 section.normal{
     background-color: white;
     color: black;
+    font-family: var(--fonte02);
 
 }
 
@@ -62,7 +64,8 @@ section.imagem{
 }
 section.imagem p{
     background-color: rgba(0, 0, 0, 0.377);
-    width: 400px;
+    display: inline-block;
+    padding: 10px;
 }
 
 footer{
