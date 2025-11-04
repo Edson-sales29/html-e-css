@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: left;
+            padding-left: 2.5%;
+            color: black
+        }
+        table{
+        width: 400px;
+        border-collapse: separate;
+        
+        tr{
+        height: 100px;
+        }
+        
+       }
+        td{
+        border: 1px solid black;
+        text-align: center;
+        padding: 10px;
+}
+        td.yellow{
+        background-color: yellow;
+        }
+        td.td{
+        background-color: lightgreen;
+        }
+        td.red{
+            background-color: rgb(192, 17, 17);
+        }
+        td.c3{
+            background-color: lightblue;
+        }
+
+    </style>
+</head>
+<body>
+   <h1>minha primeira tabela</h1> 
+
+    <table>
+    <!--
+        hierarquia de tabelas (simples)
+        table=tabela
+        table row=linha da tabela (tr)
+        table header=cabeçalho da tabela (th)
+        table data=dado da tabela (td)
+    --> 
+        <tr> <!--tr significa linhas essa eh primeira linha -->
+            <td class="td">a1</td><!--td significa celula da tabela -->
+            <td class="c3">b1</td>
+            <td class="td">c1</td>
+        </tr>
+        <tr><!--tr significa linhas essa eh segunda linha -->
+            <td class="yellow">a2</td>
+            <td class="td">b2</td>
+            <td class="yellow">c2</td>
+        </tr>
+        <tr>
+            <td class="c3">a3</td>
+            <td class="red">b3</td>
+            <td class="c3">c3</td>
+    
+    
+        <tr>
+            <td class="red">a4</td>
+            <td class="yellow">b4</td>
+            <td class="red">c4</td>
+        </tr>
+        <tr>
+            <td class="td">d5</td>
+            <td class="red">d6</td>
+        </tr>
+        <tr>
+            <td class="c3">e6</td>
+        </tr>
+        </table>
+
+</body>
+</html>
