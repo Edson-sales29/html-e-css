@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando tabelas grandes</title>
+    <style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 600px;
+    border-collapse: collapse;
+}
+    th,td{
+        border: 1px solid black;
+        padding: 10px;
+    }
+     tr{
+        height: 50px;
+     }
+    
+    thead, tfoot{
+        background-color:teal;
+    }
+    .numero{
+        text-align: right;
+    }
+    .rs{
+        background-image: linear-gradient(25deg,red,green,yellow);
+    }
+    </style>
+</head>
+<body>
+    <!-- ANATOMIA PARA TABELAS GRANDES 
+        TABLE
+            THEAD cabeçalho
+                TR,TD,TH 
+            TBODY corpo
+                TR,TD,TH
+            TFOOT rodapé
+                TR,TD,TH
+    -->
+    <table>
+        <thead>
+            <th>ESTADO</th>
+            <th>POPULAÇAO</th>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45.000.000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17.000.000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21.000.000</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">15.000.000</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">12.000.000</td>
+            </tr>
+            <tr>
+                <td class="rs">Rio Grande do Sul</td>
+                <td class="numero">11.000.000</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9.000.000</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9.000.000</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="numero">3.000.000</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">4.000.000</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="numero">3.000.000</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="numero">3.000.000</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="numero">7.000.000</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="numero">1.000.000</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="numero">2.000.000</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="numero">1.000.000</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="numero">3.000.000</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="numero">1.000.000</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="numero">2.000.000</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="numero">4.000.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>TOTAL</th>
+                <td class="numero"><strong>212.000.000</strong></td>
+            </tr>
+        </tfoot>
+    </table>                 
+</body>
+</html>
