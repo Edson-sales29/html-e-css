@@ -24,21 +24,14 @@
        }
         td{
         border: 1px solid black;
-        text-align: center;
+        text-align: center; /*alinhamento horizontal*/
         padding: 10px;
+        vertical-align: bottom; /*alinhamento vertical*/
 }
-        td.yellow{
-        background-color: yellow;
-        }
-        td.td{
-        background-color: lightgreen;
-        }
-        td.red{
-            background-color: rgb(192, 17, 17);
-        }
-        td.c3{
-            background-color: lightblue;
-        }
+.numero{
+    vertical-align: top;
+    background-color: springgreen;
+}
 
     </style>
 </head>
@@ -54,32 +47,31 @@
         table data=dado da tabela (td)
     --> 
         <tr> <!--tr significa linhas essa eh primeira linha -->
-            <td class="td">a1</td><!--td significa celula da tabela -->
-            <td class="c3">b1</td>
-            <td class="td">c1</td>
+            <td >a1</td><!--td significa celula da tabela -->
+            <td>b1</td>
+            <td>c1</td>
         </tr>
         <tr><!--tr significa linhas essa eh segunda linha -->
-            <td class="yellow">a2</td>
-            <td class="td">b2</td>
-            <td class="yellow">c2</td>
+            <td>a2</td>
+            <td>b2</td>
+            <td>c2</td>
         </tr>
         <tr>
-            <td class="c3">a3</td>
-            <td class="red">b3</td>
-            <td class="c3">c3</td>
-    
-    
+            <td>a3</td>
+            <td>b3</td>
+            <td class="numero">3</td>
+
         <tr>
-            <td class="red">a4</td>
-            <td class="yellow">b4</td>
-            <td class="red">c4</td>
+            <td>a4</td>
+            <td>b4</td>
+            <td class="numero">4</td>
         </tr>
         <tr>
-            <td class="td">d5</td>
-            <td class="red">d6</td>
+            <td class="numero">5</td>
+            <td>d6</td>
         </tr>
         <tr>
-            <td class="c3">e6</td>
+            <td>e6</td>
         </tr>
         </table>
 
